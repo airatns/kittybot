@@ -5,7 +5,7 @@ from telegram.ext import CommandHandler, Updater
 from dotenv import load_dotenv
 
 load_dotenv()
-secret_token = os.getenv('TOKEN')
+secret_token = os.getenv('TELEGRAM_TOKEN')
 
 URL = 'https://api.thecatapi.com/v1/images/search'
 
