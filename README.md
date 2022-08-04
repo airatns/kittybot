@@ -20,6 +20,12 @@ Cоздать и активировать виртуальное окружен�
 
 >*source env/scripts/activate*
 
+Установить зависимости из файла requirements.txt:
+
+>*python -m pip install --upgrade pip*
+
+>*pip install -r requirements.txt*
+
 Прописать параметры окружения в файле .env:
 
 * TELEGRAM_TOKEN
