@@ -2,7 +2,7 @@
 
 Telegram-бот, который на запрос пользователя отправляет картинки с котиками. Если доступ к кошкам невозможен, отправляются картинки с собаками.
 
-<img width="414" alt="cats" src="https://user-images.githubusercontent.com/96816183/182933247-c835bc25-66d3-459b-96cb-342e2ee08a69.png">
+<img width="414" alt="cats" src="https://user-images.githubusercontent.com/96816183/182935591-18de4c93-7392-44c3-84d4-1fbb96610f20.png">
 
 ## **Стек технологий**
 
