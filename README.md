@@ -16,14 +16,12 @@ Python, Django, Telegram Bot
 
 Cоздать и активировать виртуальное окружение:
 
->*python -m venv env*
-
+>*python -m venv env* \
 >*source env/scripts/activate*
 
 Установить зависимости из файла requirements.txt:
 
->*python -m pip install --upgrade pip*
-
+>*python -m pip install --upgrade pip* \
 >*pip install -r requirements.txt*
 
 Прописать параметры окружения в файле .env:
