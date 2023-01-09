@@ -4,30 +4,30 @@
 <img src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain-wordmark.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original-wordmark.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
 
-Telegram-бот, который на запрос пользователя отправляет картинки с котиками. Если доступ к API Кошек невозможен, отправляются картинки с API Собак.
+Kittybot in Telegram, which sends pictures with cats to users. If the Cats API is not responding, images from the Dogs API are sent.
 
 <img width="414" alt="cats" src="https://user-images.githubusercontent.com/96816183/182935591-18de4c93-7392-44c3-84d4-1fbb96610f20.png">
 
-## **Как запустить проект:**
+## **Getting Started:**
 
-Клонировать репозиторий и перейти в него в командной строке:
+Clone the repository:
 
 >*git clone git@github.com:airatns/kittybot.git*
 
-Cоздать и активировать виртуальное окружение:
+Set up the virtual environment:
 
 >*python -m venv env* \
 >*source env/scripts/activate*
 
-Установить зависимости из файла requirements.txt:
+Install dependencies in the app using requirements.txt:
 
 >*python -m pip install --upgrade pip* \
 >*pip install -r requirements.txt*
 
-Прописать параметры окружения в файле .env:
+Create an .env file and fill it with the next data:
 
 >TELEGRAM_TOKEN
 
-Запустить проект:
+Run the app locally:
 
 >*python kittybot.py*
